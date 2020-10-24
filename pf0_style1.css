@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:500px) {
+    #conteneurpage{
+        margin: 4px;
+        padding: 70px;
+        box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    h1{
+        font-size: x-large;
+        text-align: center;
+    }
+    #menudiv{
+        border: 1px solid black;
+        width: 15%;
+        height: 15%;
+    }
+    ul li {
+        margin: 5px;
+        list-style-type: square;
+    }
+    section{
+        width: 100%;
+        margin: auto;
+        border: 1px solid black;
+        background: skyblue;
+    }
+    #retour{
+        margin-top: 10px;
+    }
+    fieldset{
+        width: 80%;
+        margin: auto    ;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        box-sizing: border-box;
+        border: none;
+    }
+    form{
+        width: 100%;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    input{
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 2px;
+    }
+    button{
+        width: 40%;
+        margin: auto;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    p{
+        margin: auto;
+        padding: 2px;
+    }
+    
+}
+
