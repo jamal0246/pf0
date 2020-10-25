@@ -29,14 +29,21 @@
         margin: 5px;
         list-style-type: square;
     }
-    section{
+    #connexion{
         width: 100%;
         margin: auto;
         border: 1px solid black;
         background: skyblue;
     }
-    #retour{
-        margin-top: 10px;
+    #inscription{
+        display: none;
+    }
+    #inscription:target{
+        display: block;
+        width: 100%;
+        margin: auto;
+        border: 1px solid black;
+        background: skyblue;
     }
     fieldset{
         width: 80%;
